@@ -1,0 +1,40 @@
+title: "Dictionnaire de la crise budgétaire belge"
+tagline: "Acteurs, institutions, notions et procédures, 2025-2026"
+description: >-
+  Dictionnaire encyclopédique de la crise budgétaire belge : État fédéral,
+  Régions, Communautés, pouvoirs locaux et cadre européen. Notices sourcées,
+  chronologie et chiffres clés.
+lang: fr
+url: "https://ouaisfieu.github.io"
+baseurl: "/projet"
+
+# Date à laquelle l'information a été arrêtée (affichée sur toutes les pages)
+edition: "16 novembre 2026"
+edition_iso: "2026-11-16"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+collections:
+  notices:
+    output: true
+    permalink: /notices/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: notices
+    values:
+      layout: notice
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - tools

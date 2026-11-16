@@ -1,0 +1,24 @@
+- id: chronique
+  nom: "La crise en cours"
+  description: "Les séquences, les accords et les points de blocage de 2025-2026."
+- id: acteurs
+  nom: "Acteurs politiques"
+  description: "La coalition, les partis qui la composent et l'opposition."
+- id: procedures
+  nom: "Institutions et procédures politiques"
+  description: "Les lieux et les règles de la décision budgétaire."
+- id: controle
+  nom: "Organes d'expertise et de contrôle"
+  description: "Ceux qui chiffrent, prévoient, contrôlent et notent."
+- id: notions
+  nom: "Notions de finances publiques"
+  description: "Le vocabulaire nécessaire pour lire un budget."
+- id: europe
+  nom: "Cadre européen"
+  description: "Les règles budgétaires de l'Union et leur application à la Belgique."
+- id: entites
+  nom: "Entités fédérées et pouvoirs locaux"
+  description: "Régions, Communautés, communes : budgets et relations financières."
+- id: mesures
+  nom: "Mesures et dossiers"
+  description: "Les réformes et les postes de dépenses au cœur des arbitrages."

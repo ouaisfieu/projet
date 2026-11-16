@@ -1,0 +1,23 @@
+name: Vérifier la génération du site
+
+# Contrôle uniquement : la publication reste assurée par GitHub Pages
+# (Settings → Pages → Deploy from a branch).
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Générer avec l'environnement GitHub Pages
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site

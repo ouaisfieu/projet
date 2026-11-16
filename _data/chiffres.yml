@@ -1,0 +1,121 @@
+# groupe : intertitre du tableau. une : true = affiché en page d'accueil.
+
+- groupe: "Ensemble des pouvoirs publics"
+  indicateur: "Déficit public en 2025"
+  valeur: "5,2 % du PIB"
+  precision: "Ensemble des administrations publiques, comptes nationaux ; 4,4 % en 2024"
+  source: icn-octobre-2026
+  une: true
+- groupe: "Ensemble des pouvoirs publics"
+  indicateur: "Dette publique fin 2025"
+  valeur: "108,1 % du PIB"
+  precision: "Ensemble des administrations publiques (107,9 % dans la notification d'avril, environ 692 milliards d'euros)"
+  source: icn-octobre-2026
+  une: true
+- groupe: "Ensemble des pouvoirs publics"
+  indicateur: "Dette publique à la mi-2026"
+  valeur: "110,2 % du PIB"
+  precision: "Deuxième trimestre 2026 ; quatrième ratio de la zone euro"
+  source: businessam-taux
+- groupe: "Ensemble des pouvoirs publics"
+  indicateur: "Déficit prévu en 2026 et 2027"
+  valeur: "5,2 % puis 5,4 %"
+  precision: "Prévisions de printemps de la Commission européenne, à politique inchangée"
+  source: ce-prevision-printemps-2026
+- groupe: "Ensemble des pouvoirs publics"
+  indicateur: "Déficit projeté en 2028"
+  valeur: "5,7 % du PIB"
+  precision: "Projections de juin 2026 de la Banque nationale"
+  source: rtbf-0613-bnb
+- groupe: "Ensemble des pouvoirs publics"
+  indicateur: "Dette projetée en 2031"
+  valeur: "≈ 122 % du PIB"
+  precision: "Perspectives du Bureau fédéral du Plan, à politique inchangée"
+  source: plan-perspectives-juin-2026
+- groupe: "Ensemble des pouvoirs publics"
+  indicateur: "Seuils européens"
+  valeur: "3 % et 60 %"
+  precision: "Valeurs de référence du déficit et de la dette, en % du PIB"
+  source: conseil-pde-juin-2025
+
+- groupe: "Fédéral et sécurité sociale (entité I)"
+  indicateur: "Effort visé d'ici 2029"
+  valeur: "10 Md €"
+  precision: "Engagement politique du gouvernement fédéral, 10 juillet 2026"
+  source: rtbf-0710-10milliards
+  une: true
+- groupe: "Fédéral et sécurité sociale (entité I)"
+  indicateur: "Effort minimal selon le Comité de monitoring"
+  valeur: "7,7 Md €"
+  precision: "D'ici 2029, pour respecter la trajectoire européenne de dépenses nettes (4,9 Md € en mars 2026)"
+  source: rtbf-0706-monitoring
+- groupe: "Fédéral et sécurité sociale (entité I)"
+  indicateur: "Déficit 2026 de l'entité I"
+  valeur: "≈ 24,5 Md €"
+  precision: "Budget ajusté 2026 (24,6 Md €, soit 3,7 % du PIB, au budget initial)"
+  source: rtbf-0527-cdc
+- groupe: "Fédéral et sécurité sociale (entité I)"
+  indicateur: "Déficit projeté en 2029"
+  valeur: "> 36 Md €"
+  precision: "Environ 5 % du PIB, selon la Cour des comptes, avant mesures nouvelles"
+  source: rtbf-0527-cdc
+- groupe: "Fédéral et sécurité sociale (entité I)"
+  indicateur: "Charges d'intérêts"
+  valeur: "12,3 → 17,5 Md €"
+  precision: "De 2026 à 2029, selon la Cour des comptes"
+  source: rtbf-0527-cdc
+  une: true
+- groupe: "Fédéral et sécurité sociale (entité I)"
+  indicateur: "Accord budgétaire de novembre 2025"
+  valeur: "9,2 Md €"
+  precision: "Effort annoncé d'ici 2029 ; 8,1 Md € dans la présentation du budget en février 2026"
+  source: dh-0203-effort
+
+- groupe: "Marchés et notation"
+  indicateur: "Taux belge à dix ans"
+  valeur: "> 4,4 %"
+  precision: "Octobre 2026, plus haut niveau depuis 2012"
+  source: businessam-taux
+  une: true
+- groupe: "Marchés et notation"
+  indicateur: "Note Moody's"
+  valeur: "A1"
+  precision: "Abaissée depuis Aa3 le 17 avril 2026, perspective stable"
+  source: rtbf-0417-moodys
+- groupe: "Marchés et notation"
+  indicateur: "Note Standard & Poor's"
+  valeur: "AA-"
+  precision: "Abaissée depuis AA le 24 avril 2026"
+  source: lalibre-0424-sp
+- groupe: "Marchés et notation"
+  indicateur: "Note Fitch"
+  valeur: "A+"
+  precision: "Abaissée depuis AA- en juin 2025, confirmée le 22 mai 2026, perspective stable"
+  source: lalibre-0522-fitch
+
+- groupe: "Entités fédérées : déficits inscrits aux budgets 2027"
+  indicateur: "Région de Bruxelles-Capitale"
+  valeur: "719 M €"
+  precision: "1,6 Md € en 2025, 957 M € prévus en 2026 ; équilibre visé en 2029"
+  source: lalibre-1030-bruxelles
+  une: true
+- groupe: "Entités fédérées : déficits inscrits aux budgets 2027"
+  indicateur: "Région wallonne"
+  valeur: "1,351 Md €"
+  precision: "Objectif initial de 1,124 Md € ; équilibre visé en 2029"
+  source: brusselstimes-wallonie
+- groupe: "Entités fédérées : déficits inscrits aux budgets 2027"
+  indicateur: "Fédération Wallonie-Bruxelles"
+  valeur: "1,27 Md €"
+  precision: "Environ 1,7 Md € à l'ajusté 2026 ; cible de 1,2 Md € en 2029"
+  source: lalibre-1009-fwb
+- groupe: "Entités fédérées : déficits inscrits aux budgets 2027"
+  indicateur: "Flandre"
+  valeur: "Équilibre"
+  precision: "Selon la définition retenue par le gouvernement flamand ; effort de 1,9 Md € en 2027"
+  source: vlaams-centenboekje-2027
+- groupe: "Entités fédérées : déficits inscrits aux budgets 2027"
+  indicateur: "Communauté germanophone"
+  valeur: "+ 28 M €"
+  precision: "Excédent annoncé pour 2027"
+  source: brusselstimes-budgets

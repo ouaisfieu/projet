@@ -1,0 +1,77 @@
+---
+layout: default
+description: "Dictionnaire encyclopédique de la crise budgétaire belge : notices sourcées sur les acteurs, les institutions, les notions et les procédures, du fédéral aux communes."
+---
+<section class="hero">
+  <div>
+    <h1>La crise budgétaire belge, mot à mot</h1>
+    <p class="chapeau">
+      Un dictionnaire pour comprendre ce qui se négocie, qui décide, qui contrôle et
+      selon quelles règles&nbsp;: État fédéral, Régions, Communautés, communes et Union européenne.
+      Chaque notice définit, situe et renvoie à ses sources.
+    </p>
+
+    <div class="recherche" role="search">
+      <label class="label" for="recherche-champ">Chercher une notice</label>
+      <input id="recherche-champ" type="search" autocomplete="off" spellcheck="false"
+             placeholder="kern, douzièmes provisoires, Vooruit, dette…"
+             data-index="{{ '/search.json' | relative_url }}"
+             aria-controls="recherche-resultats">
+      <ul id="recherche-resultats" class="resultats" aria-live="polite"></ul>
+    </div>
+  </div>
+
+  <aside class="etat" aria-labelledby="etat-titre">
+    <h2 id="etat-titre">État au {{ site.edition }}</h2>
+    <p>
+      Le gouvernement fédéral n'a pas d'accord sur le budget 2027 ni sur l'effort de
+      10&nbsp;milliards d'euros visé d'ici 2029. Le Premier ministre a présenté sa démission
+      le 2&nbsp;novembre&nbsp;; le Roi l'a refusée le 6 et a prolongé sa mission, le 16,
+      jusqu'au 23&nbsp;novembre.
+    </p>
+    <p>
+      Les Régions et les Communautés ont, elles, toutes bouclé leur budget 2027.
+    </p>
+    <p><a href="{{ '/notices/crise-budgetaire-federale-de-2026/' | relative_url }}">Lire la notice de synthèse →</a></p>
+  </aside>
+</section>
+
+<h2 class="section-titre">Repères chiffrés</h2>
+<div class="chiffres-cles">
+  {% for c in site.data.chiffres %}{% if c.une %}
+  <div class="chiffre">
+    <div class="valeur">{{ c.valeur }}</div>
+    <div class="intitule">{{ c.indicateur }}</div>
+    <div class="origine">{{ c.precision }}</div>
+  </div>
+  {% endif %}{% endfor %}
+</div>
+<p class="rubrique" style="margin-top:.8rem"><a href="{{ '/chiffres/' | relative_url }}">Tous les chiffres et leurs sources →</a></p>
+
+<h2 class="section-titre">Entrées par rubrique</h2>
+<div class="rubriques">
+  {% assign tri = site.notices | sort: "slug" %}
+  {% for cat in site.data.categories %}
+  <section>
+    <h3><a href="{{ '/themes/' | relative_url }}#{{ cat.id }}">{{ cat.nom }}</a></h3>
+    <p>{{ cat.description }}</p>
+    <ul class="liste-entrees">
+      {% for n in tri %}{% if n.categorie == cat.id %}
+      <li><a href="{{ n.url | relative_url }}">{{ n.title }}</a></li>
+      {% endif %}{% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
+
+<h2 class="section-titre">Derniers jalons</h2>
+<ol class="frise">
+  {% assign recents = site.data.chronologie | sort: "date" | reverse %}
+  {% for e in recents limit: 6 %}
+  <li>
+    <time datetime="{{ e.date }}">{{ e.libelle }}</time>
+    <div><p>{{ e.texte }}</p></div>
+  </li>
+  {% endfor %}
+</ol>
+<p class="rubrique" style="margin-top:.8rem"><a href="{{ '/chronologie/' | relative_url }}">Chronologie complète →</a></p>

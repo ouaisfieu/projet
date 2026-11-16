@@ -1,0 +1,208 @@
+# date : ISO (tri). libelle : affichage. jalon : true = tournant. notices : identifiants (slug).
+
+- date: "2024-06-09"
+  annee: 2024
+  libelle: "9 juin 2024"
+  texte: "Élections fédérales, régionales et européennes."
+  notices: [coalition-arizona]
+- date: "2024-07-26"
+  annee: 2024
+  libelle: "Juillet 2024"
+  texte: "Le Conseil de l'Union européenne constate l'existence d'un déficit excessif en Belgique."
+  jalon: true
+  notices: [procedure-de-deficit-excessif]
+
+- date: "2025-01-21"
+  annee: 2025
+  libelle: "Janvier 2025"
+  texte: "Le Conseil adresse à la Belgique une recommandation pour corriger son déficit excessif."
+  notices: [procedure-de-deficit-excessif, pacte-de-stabilite-et-de-croissance]
+- date: "2025-01-31"
+  annee: 2025
+  libelle: "31 janvier 2025"
+  texte: "Accord de gouvernement entre la N-VA, le MR, Les Engagés, Vooruit et le CD&V."
+  notices: [coalition-arizona]
+- date: "2025-02-03"
+  annee: 2025
+  libelle: "3 février 2025"
+  texte: "Prestation de serment du gouvernement De Wever."
+  jalon: true
+  notices: [coalition-arizona]
+- date: "2025-06-20"
+  annee: 2025
+  libelle: "Juin 2025"
+  texte: "Recommandation européenne révisée : le déficit excessif doit être corrigé au plus tard en 2029, sur une période d'ajustement portée à sept ans. Fitch abaisse la note belge de AA- à A+."
+  notices: [procedure-de-deficit-excessif, agences-de-notation]
+- date: "2025-06-24"
+  annee: 2025
+  libelle: "24 juin 2025"
+  texte: "Accord sur la vision stratégique de la Défense : 2 % du PIB jusqu'en 2033, 2,5 % ensuite."
+  notices: [depenses-de-defense]
+- date: "2025-07-01"
+  annee: 2025
+  libelle: "Juillet 2025"
+  texte: "La réforme limitant dans le temps les allocations de chômage est votée ; la période transitoire débute le 1er juillet."
+  notices: [limitation-des-allocations-de-chomage]
+- date: "2025-11-06"
+  annee: 2025
+  libelle: "6 novembre 2025"
+  texte: "Sans accord à l'échéance qu'il avait fixée, le Premier ministre se rend chez le Roi sans démissionner et se donne jusqu'à Noël."
+  notices: [roi, accord-budgetaire-de-novembre-2025]
+- date: "2025-11-17"
+  annee: 2025
+  libelle: "17 novembre 2025"
+  texte: "La Commission européenne prévoit pour la Belgique le déficit le plus élevé de la zone euro."
+  notices: [deficit-public]
+- date: "2025-11-24"
+  annee: 2025
+  libelle: "24 novembre 2025"
+  texte: "Accord budgétaire pluriannuel : un effort annoncé de 9,2 milliards d'euros d'ici 2029, conclu au premier jour d'une grève nationale."
+  jalon: true
+  notices: [accord-budgetaire-de-novembre-2025, mouvement-social]
+- date: "2025-12-24"
+  annee: 2025
+  libelle: "23-24 décembre 2025"
+  texte: "Accord sur la loi-programme qui exécute l'accord budgétaire. Le budget 2026 ne peut être voté avant la fin de l'année."
+  notices: [accord-budgetaire-de-novembre-2025, douziemes-provisoires]
+
+- date: "2026-01-01"
+  annee: 2026
+  libelle: "1er janvier 2026"
+  texte: "L'année budgétaire commence sous crédits provisoires. Premières fins de droit aux allocations de chômage. Entrée en vigueur de la taxe sur les plus-values."
+  notices: [douziemes-provisoires, limitation-des-allocations-de-chomage, fiscalite-du-patrimoine]
+- date: "2026-02-03"
+  annee: 2026
+  libelle: "3 février 2026"
+  texte: "Le ministre du Budget présente le budget 2026 à la Chambre : l'effort pluriannuel est chiffré à 8,1 milliards d'euros."
+  notices: [accord-budgetaire-de-novembre-2025]
+- date: "2026-02-12"
+  annee: 2026
+  libelle: "12-14 février 2026"
+  texte: "Accord de gouvernement en Région bruxelloise après 613 jours ; le gouvernement Dilliès prête serment."
+  notices: [region-de-bruxelles-capitale]
+- date: "2026-02-28"
+  annee: 2026
+  libelle: "Fin février 2026"
+  texte: "Début d'un conflit au Moyen-Orient qui renchérit l'énergie et dégrade les perspectives économiques et budgétaires."
+  notices: [crise-budgetaire-federale-de-2026]
+- date: "2026-03-15"
+  annee: 2026
+  libelle: "Mars 2026"
+  texte: "Le Comité de monitoring chiffre à 4,9 milliards d'euros l'ajustement nécessaire d'ici 2029."
+  notices: [comite-de-monitoring]
+- date: "2026-04-17"
+  annee: 2026
+  libelle: "17 avril 2026"
+  texte: "Moody's abaisse la note de la Belgique de Aa3 à A1. Le gouvernement charge le Bureau fédéral du Plan d'inventorier les mesures possibles."
+  jalon: true
+  notices: [agences-de-notation, bureau-federal-du-plan]
+- date: "2026-04-24"
+  annee: 2026
+  libelle: "24 avril 2026"
+  texte: "Standard & Poor's abaisse à son tour la note belge, de AA à AA-."
+  notices: [agences-de-notation]
+- date: "2026-05-27"
+  annee: 2026
+  libelle: "27 mai 2026"
+  texte: "La Cour des comptes évalue le déficit de 2029 à plus de 36 milliards d'euros."
+  notices: [cour-des-comptes]
+- date: "2026-06-02"
+  annee: 2026
+  libelle: "2 juin 2026"
+  texte: "Le Bureau fédéral du Plan remet un catalogue de plus de 250 mesures envisageables."
+  notices: [bureau-federal-du-plan]
+- date: "2026-06-03"
+  annee: 2026
+  libelle: "3 juin 2026"
+  texte: "La Commission européenne maintient en suspens la procédure de déficit excessif."
+  notices: [procedure-de-deficit-excessif]
+- date: "2026-06-13"
+  annee: 2026
+  libelle: "13 juin 2026"
+  texte: "La Banque nationale évoque 14 milliards d'euros d'efforts à réaliser en deux ans."
+  notices: [banque-nationale-de-belgique]
+- date: "2026-07-06"
+  annee: 2026
+  libelle: "6 juillet 2026"
+  texte: "Le Comité de monitoring relève l'effort minimal à 7,7 milliards d'euros."
+  notices: [comite-de-monitoring]
+- date: "2026-07-10"
+  annee: 2026
+  libelle: "10 juillet 2026"
+  texte: "Le gouvernement fédéral s'engage sur un effort de 10 milliards d'euros d'ici 2029 et annonce un conclave pour la fin septembre."
+  jalon: true
+  notices: [effort-de-10-milliards, conclave-budgetaire]
+- date: "2026-09-10"
+  annee: 2026
+  libelle: "10 septembre 2026"
+  texte: "Arrêt de la Cour constitutionnelle sur la limitation des allocations de chômage : des droits sont temporairement rouverts."
+  notices: [limitation-des-allocations-de-chomage]
+- date: "2026-09-30"
+  annee: 2026
+  libelle: "30 septembre 2026"
+  texte: "Le gouvernement flamand présente un budget 2027 à l'équilibre, deux jours après la date prévue."
+  notices: [flandre]
+- date: "2026-10-05"
+  annee: 2026
+  libelle: "4-5 octobre 2026"
+  texte: "Accord sur le budget bruxellois 2027 : déficit ramené à 719 millions d'euros."
+  notices: [region-de-bruxelles-capitale]
+- date: "2026-10-09"
+  annee: 2026
+  libelle: "9 octobre 2026"
+  texte: "Manifestation nationale de la FGTB et de la CSC à Bruxelles. Accord sur le budget 2027 de la Fédération Wallonie-Bruxelles."
+  notices: [mouvement-social, federation-wallonie-bruxelles]
+- date: "2026-10-10"
+  annee: 2026
+  libelle: "10 octobre 2026"
+  texte: "Le kern se sépare sans accord ; la réforme de la TVA proposée par le Premier ministre est bloquée."
+  notices: [kern, reforme-de-la-tva]
+- date: "2026-10-11"
+  annee: 2026
+  libelle: "11 octobre 2026"
+  texte: "La déclaration de politique générale du 13 octobre est reportée. Le gouvernement wallon boucle son budget 2027."
+  jalon: true
+  notices: [declaration-de-politique-generale, region-wallonne]
+- date: "2026-10-15"
+  annee: 2026
+  libelle: "Mi-octobre 2026"
+  texte: "Le Premier ministre retire provisoirement la TVA de la table et propose un budget 2027 de repli d'environ 4 milliards d'euros."
+  notices: [reforme-de-la-tva, conclave-budgetaire]
+- date: "2026-10-28"
+  annee: 2026
+  libelle: "28 octobre 2026"
+  texte: "Le président de Vooruit réclame au moins 1,5 milliard d'euros d'efforts des grandes fortunes."
+  notices: [vooruit, epaules-les-plus-larges]
+- date: "2026-11-02"
+  annee: 2026
+  libelle: "2 novembre 2026"
+  texte: "Après l'échec du kern dans la nuit, le Premier ministre présente la démission du gouvernement. Le Roi tient sa décision en suspens."
+  jalon: true
+  notices: [demission-du-gouvernement, roi]
+- date: "2026-11-03"
+  annee: 2026
+  libelle: "3 novembre 2026"
+  texte: "L'OCDE publie son étude sur la Belgique. Le Roi entame ses consultations des présidents des partis de la majorité."
+  notices: [ocde-et-fmi, roi]
+- date: "2026-11-05"
+  annee: 2026
+  libelle: "5 novembre 2026"
+  texte: "Le Premier ministre confirme à la Chambre que 2027 commencera sous douzièmes provisoires."
+  notices: [douziemes-provisoires]
+- date: "2026-11-06"
+  annee: 2026
+  libelle: "6 novembre 2026"
+  texte: "Le Roi refuse la démission et charge le Premier ministre de reprendre les négociations."
+  jalon: true
+  notices: [roi, demission-du-gouvernement]
+- date: "2026-11-15"
+  annee: 2026
+  libelle: "15 novembre 2026"
+  texte: "Nouveau kern sans accord : quatre partis acceptent de négocier sur la base proposée, Vooruit refuse."
+  notices: [kern, vooruit]
+- date: "2026-11-16"
+  annee: 2026
+  libelle: "16 novembre 2026"
+  texte: "Le Roi prolonge la mission du Premier ministre ; nouveau rapport attendu le 23 novembre, jour d'une manifestation nationale en front commun."
+  jalon: true
+  notices: [crise-budgetaire-federale-de-2026, mouvement-social]
