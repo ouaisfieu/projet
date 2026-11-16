@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.title %}{% assign page_title = page.title | append: " — " | append: site.title %}{% else %}{% assign page_title = site.title %}{% endif %}
+  {% if page.resume %}{% assign page_desc = page.resume %}{% elsif page.description %}{% assign page_desc = page.description %}{% else %}{% assign page_desc = site.description %}{% endif %}
+  <title>{{ page_title | escape }}</title>
+  <meta name="description" content="{{ page_desc | strip_html | strip_newlines | escape }}">
+  <meta property="og:title" content="{{ page_title | escape }}">
+  <meta property="og:description" content="{{ page_desc | strip_html | strip_newlines | escape }}">
+  <meta property="og:type" content="{% if page.collection == 'notices' %}article{% else %}website{% endif %}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:locale" content="fr_BE">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">
+          <span class="brand-title">{{ site.title }}</span>
+          <span class="brand-tagline">{{ site.tagline }}</span>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="{{ '/index-alphabetique/' | relative_url }}"{% if page.url == '/index-alphabetique/' %} aria-current="page"{% endif %}>Index A-Z</a>
+        <a href="{{ '/themes/' | relative_url }}"{% if page.url == '/themes/' %} aria-current="page"{% endif %}>Thèmes</a>
+        <a href="{{ '/chronologie/' | relative_url }}"{% if page.url == '/chronologie/' %} aria-current="page"{% endif %}>Chronologie</a>
+        <a href="{{ '/chiffres/' | relative_url }}"{% if page.url == '/chiffres/' %} aria-current="page"{% endif %}>Chiffres</a>
+        <a href="{{ '/sources/' | relative_url }}"{% if page.url == '/sources/' %} aria-current="page"{% endif %}>Sources</a>
+        <a href="{{ '/a-propos/' | relative_url }}"{% if page.url == '/a-propos/' %} aria-current="page"{% endif %}>À propos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu" class="wrap">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>
+        <strong>{{ site.title }}</strong>. Information arrêtée au
+        <time datetime="{{ site.edition_iso }}">{{ site.edition }}</time>.
+        La situation évolue : chaque notice indique sa date de mise à jour et ses sources.
+      </p>
+      <p>
+        <a href="{{ '/a-propos/' | relative_url }}">Méthode et limites</a> ·
+        <a href="{{ '/sources/' | relative_url }}">Toutes les sources</a> ·
+        <a href="{{ '/index-alphabetique/' | relative_url }}">Index</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="{{ '/assets/js/search.js' | relative_url }}" defer></script>
+</body>
+</html>

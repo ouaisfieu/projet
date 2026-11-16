@@ -1,0 +1,63 @@
+---
+layout: default
+---
+{% assign cat = site.data.categories | where: "id", page.categorie | first %}
+<article class="notice">
+  <nav class="fil" aria-label="Fil d'Ariane">
+    <a href="{{ '/' | relative_url }}">Accueil</a>
+    <span aria-hidden="true">›</span>
+    <a href="{{ '/themes/' | relative_url }}#{{ page.categorie }}">{{ cat.nom }}</a>
+  </nav>
+
+  <header class="notice-head">
+    <h1 class="vedette">{{ page.title | escape }}</h1>
+    {% if page.alias %}
+    <p class="alias">
+      <span class="label">Aussi :</span>
+      {% for a in page.alias %}<span>{{ a }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}
+    </p>
+    {% endif %}
+    <p class="definition">{{ page.resume }}</p>
+  </header>
+
+  <div class="notice-body">
+    <div class="prose">
+      {{ content }}
+    </div>
+
+    <aside class="notice-aside" aria-label="Informations sur la notice">
+      <dl>
+        <dt>Rubrique</dt>
+        <dd><a href="{{ '/themes/' | relative_url }}#{{ page.categorie }}">{{ cat.nom }}</a></dd>
+        <dt>Mise à jour</dt>
+        <dd><time datetime="{{ page.maj | date: '%Y-%m-%d' }}">{{ page.maj | date: "%d/%m/%Y" }}</time></dd>
+      </dl>
+
+      {% if page.voir %}
+      <h2>Voir aussi</h2>
+      <ul class="voir">
+        {% for s in page.voir %}
+          {% assign n = site.notices | where: "slug", s | first %}
+          {% if n %}<li><a href="{{ n.url | relative_url }}">{{ n.title }}</a></li>{% endif %}
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </aside>
+  </div>
+
+  {% if page.sources %}
+  <section class="sources" aria-labelledby="sources-titre">
+    <h2 id="sources-titre">Sources</h2>
+    <ol>
+      {% for k in page.sources %}
+        {% assign s = site.data.sources[k] %}
+        {% if s %}
+        <li>
+          {{ s.editeur }}, <a href="{{ s.url }}" rel="noopener">{{ s.titre }}</a>{% if s.date %}, {{ s.date }}{% endif %}.
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+</article>

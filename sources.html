@@ -1,0 +1,26 @@
+---
+layout: page
+title: "Sources"
+permalink: /sources/
+chapeau: "Les documents officiels, publications d'institutions et articles de presse sur lesquels s'appuient les notices."
+---
+<p class="note">
+  Les notices privilégient les documents des institutions (Cour des comptes, Bureau fédéral du Plan,
+  Banque nationale, Institut des comptes nationaux, Commission européenne, Conseil de l'Union, OCDE)
+  et, pour le récit politique, les dépêches et articles des médias d'information générale.
+  Chaque notice liste les sources qui la concernent.
+</p>
+
+{% assign types = "officiel|Documents officiels et publications d'institutions;presse|Presse et médias d'information;analyse|Analyses, études et prises de position" | split: ";" %}
+{% for t in types %}
+{% assign paire = t | split: "|" %}
+<h2 class="annee">{{ paire[1] }}</h2>
+<ul>
+  {% for item in site.data.sources %}
+    {% assign s = item[1] %}
+    {% if s.type == paire[0] %}
+    <li>{{ s.editeur }}, <a href="{{ s.url }}" rel="noopener">{{ s.titre }}</a>{% if s.date %}, {{ s.date }}{% endif %}.</li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{% endfor %}

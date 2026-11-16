@@ -1,0 +1,36 @@
+---
+layout: page
+large: true
+title: "Chiffres clés"
+permalink: /chiffres/
+chapeau: "Les ordres de grandeur de la crise, avec leur périmètre, leur date et leur source."
+---
+<p class="note">
+  Les chiffres budgétaires ne se comparent que s'ils portent sur le même périmètre
+  (l'ensemble des pouvoirs publics, l'<a href="{{ '/notices/entite-i-et-entite-ii/' | relative_url }}">entité&nbsp;I</a>
+  ou une seule entité) et sur la même définition (budget ou comptes nationaux). Les écarts
+  entre institutions tiennent le plus souvent à ces différences, précisées ci-dessous.
+</p>
+
+{% assign groupes = site.data.chiffres | group_by: "groupe" %}
+{% for g in groupes %}
+<h2 class="annee">{{ g.name }}</h2>
+<div class="table-scroll">
+<table>
+  <thead>
+    <tr><th>Indicateur</th><th class="num">Valeur</th><th>Périmètre et date</th><th>Source</th></tr>
+  </thead>
+  <tbody>
+    {% for c in g.items %}
+    {% assign s = site.data.sources[c.source] %}
+    <tr>
+      <td>{{ c.indicateur }}</td>
+      <td class="num"><strong>{{ c.valeur }}</strong></td>
+      <td>{{ c.precision }}</td>
+      <td>{% if s %}<a href="{{ s.url }}" rel="noopener">{{ s.editeur }}</a>{% if s.date %}, {{ s.date }}{% endif %}{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endfor %}

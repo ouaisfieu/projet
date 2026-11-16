@@ -1,0 +1,21 @@
+---
+layout: page
+title: "Thèmes"
+permalink: /themes/
+chapeau: "Les notices classées par rubrique."
+---
+{% assign tri = site.notices | sort: "slug" %}
+{% for cat in site.data.categories %}
+<section class="theme" id="{{ cat.id }}">
+  <h2>{{ cat.nom }}</h2>
+  <p>{{ cat.description }}</p>
+  <ul class="entrees">
+    {% for n in tri %}{% if n.categorie == cat.id %}
+    <li>
+      <a href="{{ n.url | relative_url }}">{{ n.title }}</a>
+      <p>{{ n.resume }}</p>
+    </li>
+    {% endif %}{% endfor %}
+  </ul>
+</section>
+{% endfor %}

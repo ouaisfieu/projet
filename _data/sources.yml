@@ -1,0 +1,668 @@
+# Registre des sources. Clé = identifiant utilisé dans les notices (champ « sources »).
+# type : officiel | presse | analyse
+
+# ---------- Palais, Parlement, gouvernement ----------
+palais-1116:
+  type: officiel
+  editeur: "Palais royal"
+  titre: "Audience de M. Bart De Wever, Premier ministre"
+  date: "16 novembre 2026"
+  url: "https://www.monarchie.be/fr/agenda/audience-de-m-bart-de-wever-premier-ministre"
+chambre-finances-2026:
+  type: officiel
+  editeur: "Chambre des représentants"
+  titre: "Projet de loi de finances pour l'année budgétaire 2026 (doc. 56 1200/003)"
+  date: "décembre 2025"
+  url: "https://www.dekamer.be/doc/FLWB/pdf/56/1200/56K1200003.pdf"
+chambre-coordination:
+  type: officiel
+  editeur: "Chambre des représentants"
+  titre: "Document parlementaire 56 1569/001 (coordination budgétaire entre pouvoirs publics et nouvelles règles européennes)"
+  date: "56e législature"
+  url: "https://www.lachambre.be/FLWB/Pdf/56/1569/56K1569001.pdf"
+belgium-slr:
+  type: officiel
+  editeur: "Conseil des ministres (news.belgium.be)"
+  titre: "OTAN : Strategic Level Report 2025"
+  date: "6 février 2026"
+  url: "https://news.belgium.be/fr/node/42876/pdf"
+
+# ---------- Institutions belges ----------
+icn-avril-2026:
+  type: officiel
+  editeur: "Institut des comptes nationaux / BNB"
+  titre: "Comptes des administrations publiques 2025 (notification d'avril)"
+  date: "20 avril 2026"
+  url: "https://www.nbb.be/doc/dq/f/dq3/nfco.pdf"
+icn-octobre-2026:
+  type: officiel
+  editeur: "Institut des comptes nationaux / BNB"
+  titre: "Comptes annuels détaillés et tableaux 2025"
+  date: "14 octobre 2026"
+  url: "https://www.nbb.be/fr/statistiques/derniers-chiffres/icn-comptes-annuels-detailles-et-tableaux-2025"
+bnb-rapport-2025:
+  type: officiel
+  editeur: "Banque nationale de Belgique"
+  titre: "Rapport 2025, chapitre 4 : Finances publiques"
+  date: "mars 2026"
+  url: "https://www.nbb.be/doc/ts/publications/nbbreport/2025/fr/t1/rapport2025_tii_h4.pdf"
+plan-options-2027:
+  type: officiel
+  editeur: "Bureau fédéral du Plan"
+  titre: "Options de politiques pour l'élaboration du budget 2027"
+  date: "2 juin 2026"
+  url: "https://www.plan.be/fr/publications/options-de-politiques-pour-lelaboration-du-budget"
+plan-options-2027-pdf:
+  type: officiel
+  editeur: "Bureau fédéral du Plan"
+  titre: "Options de politiques pour l'élaboration du budget 2027 (rapport complet)"
+  date: "juin 2026"
+  url: "https://www.plan.be/sites/default/files/documents/REP_BUDGET2027_13320_FR.pdf"
+plan-perspectives-juin-2026:
+  type: officiel
+  editeur: "Bureau fédéral du Plan"
+  titre: "Des perspectives économiques et budgétaires dégradées par les conséquences du conflit au Moyen-Orient"
+  date: "juin 2026"
+  url: "https://www.plan.be/fr/publications/des-perspectives-economiques-et-budgetaires"
+plan-perspectives-fevrier-2026:
+  type: officiel
+  editeur: "Bureau fédéral du Plan"
+  titre: "Perspectives économiques 2026-2031 pour la Belgique"
+  date: "février 2026"
+  url: "https://www.plan.be/fr/publications/perspectives-economiques-2026-2031-pour-la"
+onem-reforme:
+  type: officiel
+  editeur: "ONEM"
+  titre: "Réforme de l'assurance chômage"
+  date: "2026"
+  url: "https://www.onem.be/page/reforme-de-lassurance-chomage"
+onem-chiffres:
+  type: officiel
+  editeur: "ONEM"
+  titre: "Réforme de la réglementation du chômage : chiffres"
+  date: "2026"
+  url: "https://www.onem.be/index.php/statistiques/reforme-de-la-reglementation-du-chomage-chiffres"
+vlaams-centenboekje-2027:
+  type: officiel
+  editeur: "Vlaams Parlement / Vlaamse Regering"
+  titre: "Vlaamse begroting 2027 – Centenboekje Septemberverklaring"
+  date: "30 septembre 2026"
+  url: "https://www.vlaamsparlement.be/sites/default/files/2026-09/BO2027_Centenboekje_Septemberverklaring.pdf"
+vlaanderen-meerjarenraming:
+  type: officiel
+  editeur: "Vlaamse overheid, Departement Financiën en Begroting"
+  titre: "Meerjarenraming 2025-2030"
+  date: "2026"
+  url: "https://www.vlaanderen.be/departement-financien-en-begroting/begroting/meerjarenraming"
+
+# ---------- Union européenne et organisations internationales ----------
+conseil-pde-janvier-2025:
+  type: officiel
+  editeur: "Conseil de l'Union européenne"
+  titre: "Recommandation visant à ce qu'il soit mis un terme à la situation de déficit excessif en Belgique (5032/25)"
+  date: "janvier 2025"
+  url: "https://data.consilium.europa.eu/doc/document/ST-5032-2025-INIT/fr/pdf"
+conseil-pde-juin-2025:
+  type: officiel
+  editeur: "Conseil de l'Union européenne"
+  titre: "Recommandation révisée sur le déficit excessif en Belgique (10166/25)"
+  date: "juin 2025"
+  url: "https://data.consilium.europa.eu/doc/document/ST-10166-2025-INIT/fr/pdf"
+ce-prevision-printemps-2026:
+  type: officiel
+  editeur: "Commission européenne"
+  titre: "Economic forecast for Belgium (prévisions de printemps 2026)"
+  date: "mai 2026"
+  url: "https://economy-finance.ec.europa.eu/economic-surveillance-eu-member-states/country-pages/belgium/economic-forecast-belgium_en"
+bce-bulletin-2026-6:
+  type: officiel
+  editeur: "Banque centrale européenne"
+  titre: "Bulletin économique, n° 6/2026"
+  date: "2026"
+  url: "https://www.ecb.europa.eu/press/economic-bulletin/html/eb202606.fr.html"
+ocde-etude-2026:
+  type: officiel
+  editeur: "OCDE"
+  titre: "Études économiques de l'OCDE : Belgique 2026"
+  date: "3 novembre 2026"
+  url: "https://www.oecd.org/fr/publications/2026/11/oecd-economic-surveys-belgium-2026_3844d138.html"
+
+# ---------- Presse : séquence de novembre 2026 ----------
+rtbf-1116-mission:
+  type: presse
+  editeur: "RTBF"
+  titre: "Crise politique au fédéral : le roi Philippe charge Bart De Wever de poursuivre les négociations"
+  date: "16 novembre 2026"
+  url: "https://www.rtbf.be/article/crise-politique-au-federal-le-roi-philippe-charge-bart-de-wever-de-poursuivre-les-negociations-11816236"
+rtbf-1116-suites:
+  type: presse
+  editeur: "RTBF"
+  titre: "Le Roi donne une semaine de plus à Bart De Wever : quelles suites pour les négociations budgétaires ?"
+  date: "16 novembre 2026"
+  url: "https://rtbf.be/article/le-roi-donne-une-semaine-de-plus-a-bart-de-wever-quelles-suites-pour-les-negociations-budgetaires-11816188"
+bx1-1116:
+  type: presse
+  editeur: "BX1"
+  titre: "Budget fédéral : De Wever attendu chez le Roi, Prévot garde de l'optimisme"
+  date: "16 novembre 2026"
+  url: "https://bx1.be/categories/news/budget-federal-de-wever-attendu-chez-le-roi-prevot-garde-de-loptimisme/"
+avenir-1116:
+  type: presse
+  editeur: "L'Avenir"
+  titre: "Budget fédéral : le roi Philippe invite Bart De Wever à poursuivre les négociations, nouveau rapport le 23 novembre"
+  date: "16 novembre 2026"
+  url: "https://www.lavenir.net/actu/belgique/politique/2026/11/16/budget-federal-le-roi-philippe-invite-bart-de-wever-a-poursuivre-les-negociations-JG36SAX7ANA6BOKM5VLK5TCI4U/"
+lalibre-1116:
+  type: presse
+  editeur: "La Libre"
+  titre: "Le Roi demande à Bart De Wever de poursuivre les négociations"
+  date: "16 novembre 2026"
+  url: "https://www.lalibre.be/belgique/politique-belge/2026/11/16/direct-bart-de-wever-se-rend-chez-le-roi-a-quoi-faut-il-sattendre-AAJAT7RDKBAUHD4PI5DFPPCNS4/"
+dh-1115:
+  type: presse
+  editeur: "La DH"
+  titre: "Pas d'accord sur un projet de budget : le Premier ministre se rendra les mains vides chez le Roi"
+  date: "15 novembre 2026"
+  url: "https://dhnet.be/actu/belgique/2026/11/15/pas-daccord-sur-un-projet-de-budget-le-premier-ministre-se-rendra-les-mains-vides-chez-le-roi-mais-avec-quelles-intentions-IVAUXVD6KZFD7I2DWHB5UIC3IU"
+21news-1115:
+  type: presse
+  editeur: "21 News"
+  titre: "Budget fédéral : quatre partis disent oui, Vooruit dit non"
+  date: "16 novembre 2026"
+  url: "https://www.21news.be/budget-federal-quatre-partis-disent-oui-vooruit-dit-non-pourquoi-les-socialistes-refusent-toujours-laccord/"
+rtbf-1114:
+  type: presse
+  editeur: "RTBF"
+  titre: "Négociations budgétaires : après le kern de ce vendredi, les discussions se poursuivront lors « d'un weekend de tous les dangers »"
+  date: "14 novembre 2026"
+  url: "https://www.rtbf.be/article/les-negociations-budgetaires-federales-vont-enfin-reprendre-pour-un-week-end-de-tous-les-dangers-11815011"
+21news-1109:
+  type: presse
+  editeur: "21 News"
+  titre: "Bart De Wever relance aujourd'hui les négociations sur le budget fédéral"
+  date: "9 novembre 2026"
+  url: "https://www.21news.be/bart-de-wever-relance-aujourdhui-les-negociations-sur-le-budget-federal/"
+vrt-1105:
+  type: presse
+  editeur: "VRT NWS"
+  titre: "Budget fédéral : Bart De Wever confirme les douzièmes provisoires, « un échec cuisant pour le gouvernement »"
+  date: "5 novembre 2026"
+  url: "https://www.vrt.be/vrtnws/fr/2026/11/05/budget-federal-bart-de-wever-confirme-les-douziemes-provisoire/"
+lalibre-1102:
+  type: presse
+  editeur: "La Libre"
+  titre: "Bart De Wever a remis sa démission au Roi : récit et réactions"
+  date: "2 novembre 2026"
+  url: "https://www.lalibre.be/belgique/politique-belge/2026/11/02/budget-federal-le-kern-ne-parvient-pas-a-degager-un-accord-bart-de-wever-va-remettre-sa-demission-au-roi-RGR57E7BQNEDXMAZTANYJWRJNI/"
+vrt-1102:
+  type: presse
+  editeur: "VRT NWS"
+  titre: "Crise politique : le roi Philippe réserve sa décision après la démission du gouvernement De Wever"
+  date: "2 novembre 2026"
+  url: "https://www.vrt.be/vrtnws/fr/2026/11/02/crise-politique-le-roi-tient-sa-decision-en-suspens-et-entamer/"
+bx1-1102:
+  type: presse
+  editeur: "BX1"
+  titre: "Budget fédéral : Bart De Wever a remis sa démission au Roi, le souverain « tient sa décision en suspens »"
+  date: "2 novembre 2026"
+  url: "https://bx1.be/categories/politique/budget-federal-bart-de-wever-est-arrive-au-palais-pour-remettre-sa-demission-au-roi/"
+rtbf-1106-dette:
+  type: presse
+  editeur: "RTBF"
+  titre: "Dette, déficit, inflation : la Belgique peut-elle faire ce qu'elle veut avec son budget ?"
+  date: "6 novembre 2026"
+  url: "https://www.rtbf.be/article/dette-deficit-inflation-la-belgique-peut-elle-faire-ce-qu-elle-veut-avec-son-budget-11809696"
+rtbf-1103-ocde:
+  type: presse
+  editeur: "RTBF"
+  titre: "Budget fédéral : OCDE et Bureau du Plan exhortent une nouvelle fois la Belgique à un assainissement des finances"
+  date: "3 novembre 2026"
+  url: "https://www.rtbf.be/article/budget-federal-les-economistes-de-l-ocde-exhortent-une-nouvelle-fois-la-belgique-a-un-assainissement-des-finances-11809937"
+vrt-1103-ocde:
+  type: presse
+  editeur: "VRT NWS"
+  titre: "L'OCDE exhorte une nouvelle fois la Belgique à assainir son budget"
+  date: "3 novembre 2026"
+  url: "https://www.vrt.be/vrtnws/fr/2026/11/03/l-ocde-exhorte-une-nouvelle-fois-la-belgique-a-assainir-son-budg/"
+
+# ---------- Presse : automne 2026 ----------
+rtbf-1028-rousseau:
+  type: presse
+  editeur: "RTBF"
+  titre: "Budget fédéral : Conner Rousseau réclame 1,5 milliard d'euros d'efforts aux grandes fortunes"
+  date: "28 octobre 2026"
+  url: "https://www.rtbf.be/article/reprise-des-negociations-budgetaires-conner-rousseau-reclame-davantage-d-efforts-aux-grandes-fortunes-mais-veut-eviter-la-chute-du-gouvernement-11807307"
+21news-vooruit:
+  type: presse
+  editeur: "21 News"
+  titre: "Budget : voici pourquoi Vooruit ne pouvait pas dire oui à Bart De Wever"
+  date: "octobre 2026"
+  url: "https://www.21news.be/budget-voici-pourquoi-vooruit-ne-pouvait-pas-dire-oui-a-bart-de-wever/"
+lalibre-1021-syndicats:
+  type: presse
+  editeur: "La Libre"
+  titre: "Les trois grands syndicats annoncent une nouvelle manifestation en front commun à Bruxelles"
+  date: "21 octobre 2026"
+  url: "https://www.lalibre.be/belgique/societe/2026/10/21/les-trois-grands-syndicats-prevoient-une-nouvelle-manifestation-a-bruxelles-P7YLHTZAZRCBBJLSYOCP4JO26I/"
+avenir-1015-tva:
+  type: presse
+  editeur: "L'Avenir"
+  titre: "Budget fédéral et abandon de la hausse de la TVA : les dessous du revirement de Bart De Wever"
+  date: "15 octobre 2026"
+  url: "https://www.lavenir.net/actu/belgique/politique/2026/10/15/budget-federal-et-abandon-de-la-hausse-de-la-tva-les-dessous-du-revirement-de-bart-de-wever-et-les-risques-pour-larizona-PCL4AXB4CBEATONVX37LIBE4SI/"
+21news-tva-urgence:
+  type: presse
+  editeur: "21 News"
+  titre: "De Wever-Bouchez : la TVA disparaît, mais le bras de fer budgétaire continue"
+  date: "octobre 2026"
+  url: "https://www.21news.be/de-wever-bouchez-la-tva-disparait-mais-le-bras-de-fer-budgetaire-continue/"
+parismatch-1011-kern:
+  type: presse
+  editeur: "Paris Match Belgique"
+  titre: "Budget fédéral : le kern s'est terminé sans accord, le blocage persiste sur la TVA"
+  date: "11 octobre 2026"
+  url: "https://www.parismatch.be/actualites/politique/2026/10/11/budget-federal-le-kern-sest-termine-sans-accord-le-blocage-persiste-sur-la-tva-OI4MOLYS3JFDTFHU4KAUHX45NU/"
+21news-tva-22:
+  type: presse
+  editeur: "21 News"
+  titre: "La TVA va-t-elle passer à 22 % ? Le bras de fer MR/N-VA qui secoue le gouvernement"
+  date: "octobre 2026"
+  url: "https://www.21news.be/la-tva-va-t-elle-passer-a-22-le-bras-de-fer-mr-n-va-qui-secoue-le-gouvernement/"
+businessam-taux:
+  type: presse
+  editeur: "Business AM"
+  titre: "La dette publique belge augmente : les taux d'intérêt à long terme atteignent leur plus haut niveau depuis 2012"
+  date: "octobre 2026"
+  url: "https://fr.businessam.be/la-dette-publique-belge-augmente-les-taux-dinteret-a-long-terme-atteignent-leur-plus-haut-niveau-depuis-2012/"
+rtbf-lexique:
+  type: presse
+  editeur: "RTBF"
+  titre: "Déficit, obligations, charges d'intérêts : notre lexique du budget"
+  date: "octobre 2026"
+  url: "https://www.rtbf.be/article/deficit-obligations-charges-d-interets-vous-n-avez-pas-les-bases-on-vous-explique-tout-dans-notre-lexique-du-budget-11796316"
+rtbf-1002-conclaves:
+  type: presse
+  editeur: "RTBF"
+  titre: "Conclaves budgétaires : sprint en vue pour les gouvernements au fédéral, en Wallonie et à Bruxelles ?"
+  date: "2 octobre 2026"
+  url: "https://www.rtbf.be/article/conclaves-budgetaires-sprint-en-vue-pour-les-gouvernements-au-federal-en-wallonie-et-a-bruxelles-11793256"
+dh-0908-syndicats:
+  type: presse
+  editeur: "La DH"
+  titre: "La FGTB et la CSC annoncent une manifestation à Bruxelles le 9 octobre : « Un premier avertissement clair »"
+  date: "8 septembre 2026"
+  url: "https://www.dhnet.be/actu/belgique/2026/09/08/budget-federal-la-fgtb-et-la-csc-annoncent-une-manifestation-a-bruxelles-le-9-octobre-un-premier-avertissement-clair-XZEN32ODANGJFBAFA5SNZPO2BI/"
+vrt-0908-syndicats:
+  type: presse
+  editeur: "VRT NWS"
+  titre: "FGTB et CSC manifesteront le 9 octobre à Bruxelles"
+  date: "8 septembre 2026"
+  url: "https://www.vrt.be/vrtnws/fr/2026/09/08/la-fgtb-et-la-csc-manifesteront-le-9-octobre-a-bruxelles-un-pr/"
+dh-0903-bouchez:
+  type: presse
+  editeur: "La DH"
+  titre: "Georges-Louis Bouchez a tracé sa ligne rouge pour le budget mais il assure que « ce gouvernement ne tombera pas »"
+  date: "3 septembre 2026"
+  url: "https://www.dhnet.be/actu/belgique/2026/09/03/georges-louis-bouchez-a-trace-sa-ligne-rouge-pour-le-budget-mais-il-assure-que-ce-gouvernement-ne-tombera-pas-VUXBSWZV5ZETJPA4TCJF7B2GEY/"
+
+# ---------- Presse : printemps-été 2026 ----------
+lalibre-0715-sante:
+  type: presse
+  editeur: "La Libre"
+  titre: "Tensions dans l'Arizona autour des économies à réaliser dans les soins de santé"
+  date: "15 juillet 2026"
+  url: "https://www.lalibre.be/belgique/politique-belge/2026/07/15/tensions-dans-larizona-autour-des-economies-a-realiser-dans-les-soins-de-sante-AYSLJ5Z6BBCN7GPGI5SRYTCWX4/"
+rtbf-0710-10milliards:
+  type: presse
+  editeur: "RTBF"
+  titre: "Le gouvernement fédéral s'accorde sur un effort de 10 milliards d'euros d'ici 2029 et tiendra un conclave budgétaire fin septembre"
+  date: "10 juillet 2026"
+  url: "https://www.rtbf.be/article/le-gouvernement-federal-s-accorde-sur-un-effort-de-10-milliards-d-euros-d-ici-2029-et-tiendra-un-conclave-budgetaire-fin-septembre-11756074"
+bx1-0710-10milliards:
+  type: presse
+  editeur: "BX1"
+  titre: "Le gouvernement fédéral s'accorde sur un effort de 10 milliards d'euros d'ici 2029"
+  date: "10 juillet 2026"
+  url: "https://bx1.be/categories/news/le-gouvernement-federal-saccorde-sur-un-effort-de-10-milliards-deuros-dici-2029/"
+vrt-0708-defense:
+  type: presse
+  editeur: "VRT NWS"
+  titre: "La Belgique veut consacrer 2 % de son PIB à la défense, pour la 2e année consécutive et jusqu'en 2029"
+  date: "8 juillet 2026"
+  url: "https://www.vrt.be/vrtnws/fr/2026/07/08/la-belgique-veut-consacrer-2-de-son-pib-a-la-defense-pour-la-2/"
+businessam-defense:
+  type: presse
+  editeur: "Business AM"
+  titre: "La Belgique veut accélérer l'augmentation de son budget de défense à 2 pourcent"
+  date: "2025"
+  url: "https://fr.businessam.be/?p=144479"
+rtbf-0706-monitoring:
+  type: presse
+  editeur: "RTBF"
+  titre: "Budget fédéral : 7,7 milliards d'euros à trouver d'ici 2029 pour garder le déficit budgétaire sous contrôle"
+  date: "6 juillet 2026"
+  url: "https://www.rtbf.be/article/budget-federal-7-7-milliards-d-euros-a-trouver-d-ici-2029-pour-garder-le-deficit-budgetaire-sous-controle-11753597"
+rtbf-0613-bnb:
+  type: presse
+  editeur: "RTBF"
+  titre: "Le déficit budgétaire s'aggrave : le gouvernement devra faire 14 milliards d'économie en deux ans, affirme la Banque nationale"
+  date: "13 juin 2026"
+  url: "https://www.rtbf.be/article/le-deficit-budgetaire-s-aggrave-le-gouvernement-devra-faire-14-milliards-d-economie-en-deux-ans-affirme-la-banque-nationale-11740073"
+lalibre-0603-commission:
+  type: presse
+  editeur: "La Libre"
+  titre: "L'Europe sermonne la Belgique mais desserre l'étau budgétaire sur l'énergie"
+  date: "3 juin 2026"
+  url: "https://www.lalibre.be/economie/conjoncture/2026/06/03/budget-energie-emploi-la-commission-met-la-belgique-sous-pression-mais-lui-ouvre-aussi-une-porte-BKYAJM26N5E2ZJQ3UQ2XVSMKJM/"
+trends-0603-pde:
+  type: presse
+  editeur: "Trends-Tendances"
+  titre: "Procédure de déficit excessif : la Belgique obtient un sursis, pas une absolution"
+  date: "juin 2026"
+  url: "https://trends.levif.be/a-la-une/politique-economique/procedure-de-deficit-excessif-la-belgique-obtient-un-sursis-pas-une-absolution/"
+rtbf-0602-plan:
+  type: presse
+  editeur: "RTBF"
+  titre: "Le Bureau du Plan a dressé une liste de 260 mesures envisageables"
+  date: "2 juin 2026"
+  url: "https://www.rtbf.be/article/quelles-mesures-budgetaires-le-gouvernement-de-wever-prendra-t-il-le-bureau-du-plan-a-dresse-une-liste-de-260-mesures-envisageables-11733746"
+rtbf-0527-cdc:
+  type: presse
+  editeur: "RTBF"
+  titre: "Près de 12 milliards d'euros de déficit supplémentaire d'ici 2029 : la Cour des comptes confirme le dérapage budgétaire de l'Arizona"
+  date: "27 mai 2026"
+  url: "https://www.rtbf.be/article/pres-de-12-milliards-d-euros-de-deficit-supplementaire-d-ici-2029-la-cour-des-comptes-confirme-le-derapage-budgetaire-de-l-arizona-11730716"
+rtbf-0520-defense:
+  type: presse
+  editeur: "RTBF"
+  titre: "Budget fédéral : 2 % du PIB pour la défense, « c'est gravé dans le marbre », affirme Bart De Wever"
+  date: "mai 2026"
+  url: "https://www.rtbf.be/article/budget-federal-2-du-pib-pour-la-defense-c-est-grave-dans-le-marbre-affirme-bart-de-wever-11730390"
+lalibre-0522-fitch:
+  type: presse
+  editeur: "La Libre"
+  titre: "Fitch maintient la note de la Belgique à « A+ », avec une perspective « stable »"
+  date: "22 mai 2026"
+  url: "https://www.lalibre.be/economie/conjoncture/2026/05/22/fitch-maintient-la-note-de-la-belgique-a-a-avec-une-perspective-stable-4B3KC3I7VZDODDSSINZ6JXPJW4/"
+lalibre-0521-commission:
+  type: presse
+  editeur: "La Libre"
+  titre: "Budget : la Commission prévoit une stabilisation du déficit en 2026 et une hausse en 2027"
+  date: "21 mai 2026"
+  url: "https://www.lalibre.be/dernieres-depeches/2026/05/21/budget-la-commission-prevoit-une-stabilisation-du-deficit-en-2026-et-une-hausse-en-2027-HPE5YZFWUVCARLRJVRHH3X275U/"
+lalibre-0425-dette:
+  type: presse
+  editeur: "La Libre"
+  titre: "Dégradation de la note financière : « Les marchés ont déjà réagi », dit l'Agence de la dette"
+  date: "25 avril 2026"
+  url: "https://www.lalibre.be/economie/conjoncture/2026/04/25/degradation-de-la-note-financiere-les-marches-ont-deja-reagi-dit-lagence-de-la-dette-K5LRZJU7UVFWJDELWINE4FKL4Y/"
+lalibre-0424-sp:
+  type: presse
+  editeur: "La Libre"
+  titre: "Standard & Poor's dégrade à son tour la note de la dette belge"
+  date: "24 avril 2026"
+  url: "https://www.lalibre.be/economie/conjoncture/2026/04/24/une-nouvelle-piqure-de-rappel-pour-le-gouvernement-de-wever-lagence-americaine-standard-poors-degrade-a-son-tour-la-note-de-la-dette-belge-35XH4UPDVFG6VOJRYFDZYERPYM/"
+rtbf-0417-moodys:
+  type: presse
+  editeur: "RTBF"
+  titre: "Moody's dégrade la note financière de la Belgique et la prive de son « double A »"
+  date: "17 avril 2026"
+  url: "https://www.rtbf.be/article/moody-s-degrade-la-note-financiere-de-la-belgique-et-la-prive-de-son-double-a-11711602"
+avenir-0425-notation:
+  type: presse
+  editeur: "L'Avenir"
+  titre: "Les agences de notation sanctionnent la Belgique : quel impact sur votre portefeuille ?"
+  date: "25 avril 2026"
+  url: "https://www.lavenir.net/actu/belgique/2026/04/25/les-agences-de-notation-sanctionnent-la-belgique-quel-impact-sur-votre-portefeuille-F6DO2W6L7ZFBRNXMDL34ZKHUEU/"
+dh-0203-effort:
+  type: presse
+  editeur: "La DH"
+  titre: "Budget fédéral : l'effort supplémentaire d'ici 2029 s'élève à 8,1 milliards"
+  date: "3 février 2026"
+  url: "https://www.dhnet.be/actu/belgique/2026/02/03/budget-federal-leffort-supplementaire-dici-2029-seleve-a-81-milliards-WRURSTG3TVC6HO2P5LGOO75TMQ/"
+avenir-0203-effort:
+  type: presse
+  editeur: "L'Avenir"
+  titre: "Budget fédéral : l'effort supplémentaire d'ici 2029 s'élève à plus de 8 milliards d'euros"
+  date: "3 février 2026"
+  url: "https://www.lavenir.net/actu/belgique/2026/02/03/budget-federal-leffort-supplementaire-dici-2029-seleve-a-plus-de-8-milliards-deuros-JPJQ4CAAXVFHLPSLS2R3J25DMY/"
+
+# ---------- Presse : séquence de novembre-décembre 2025 ----------
+bx1-2025-1106-roi:
+  type: presse
+  editeur: "BX1"
+  titre: "Budget fédéral : le Roi « demande avec insistance à toutes les parties prenantes de surmonter leurs divergences »"
+  date: "6 novembre 2025"
+  url: "https://bx1.be/?p=783764"
+bx1-2025-edito:
+  type: presse
+  editeur: "BX1"
+  titre: "L'édito de Fabrice Grosfilley : les 4 défaites de Bart De Wever"
+  date: "novembre 2025"
+  url: "https://bx1.be/categories/news/ledito-de-fabrice-grosfilley-les-4-defaites-de-bart-de-wever/"
+vrt-2025-1117-commission:
+  type: presse
+  editeur: "VRT NWS"
+  titre: "Selon les prévisions de la Commission européenne, la Belgique se dirige vers le plus gros déficit de la zone euro"
+  date: "17 novembre 2025"
+  url: "https://www.vrt.be/vrtnws/fr/2025/11/17/selon-les-previsions-economiques-de-la-commission-europeenne-la/"
+rtbf-2025-1124-accord:
+  type: presse
+  editeur: "RTBF"
+  titre: "Bart De Wever réagit à l'accord budgétaire"
+  date: "24 novembre 2025"
+  url: "https://www.rtbf.be/article/bart-de-wever-reagit-a-l-accord-budgetaire-je-n-ai-meme-pas-pense-aux-trois-jours-de-greve-11636632"
+parismatch-2025-1124-accord:
+  type: presse
+  editeur: "Paris Match Belgique"
+  titre: "Le gouvernement fédéral a conclu un accord sur le budget : voici ce qu'il contient"
+  date: "24 novembre 2025"
+  url: "https://www.parismatch.be/actualites/politique/2025/11/24/le-gouvernement-federal-a-conclu-un-accord-sur-le-budget-VKN3HPD7TFE5XNB2P7AFSFFC4E/"
+lalibre-2025-1124-openvld:
+  type: presse
+  editeur: "La Libre (Belga)"
+  titre: "Budget fédéral : « Taxes, taxes, taxes », fustige l'Open Vld"
+  date: "24 novembre 2025"
+  url: "https://www.lalibre.be/dernieres-depeches/2025/11/24/budget-federal-taxes-taxes-taxes-fustige-lopen-vld-JAFTGOJLDFG6JBYXCVBPB4UNDM/"
+bx1-2025-1224-loi-programme:
+  type: presse
+  editeur: "BX1"
+  titre: "Hausse TVA : seuls les plats à emporter à consommer dans les deux jours sont concernés"
+  date: "24 décembre 2025"
+  url: "https://bx1.be/?p=790837"
+
+# ---------- Presse : entités fédérées et pouvoirs locaux ----------
+brusselstimes-budgets:
+  type: presse
+  editeur: "The Brussels Times"
+  titre: "Belgium's many budgets: How the country's regions are trying to curb the deficit"
+  date: "octobre 2026"
+  url: "https://www.brusselstimes.com/belgium/2368057/belgiums-many-budgets-how-the-countrys-regions-are-trying-to-curb-the-deficit"
+lalibre-1030-bruxelles:
+  type: presse
+  editeur: "La Libre (Belga)"
+  titre: "Le gouvernement bruxellois a transmis les documents du budget 2027 au parlement"
+  date: "30 octobre 2026"
+  url: "https://www.lalibre.be/dernieres-depeches/2026/10/30/budget-bruxellois-le-gouvernement-bruxellois-a-transmis-les-documents-du-budget-2027-au-parlement-247KKMTMGJHUZGB7TO73KG4AYI/"
+vrt-1005-bruxelles:
+  type: presse
+  editeur: "VRT NWS"
+  titre: "Le gouvernement bruxellois conclut un accord sur le budget 2027"
+  date: "5 octobre 2026"
+  url: "https://www.vrt.be/vrtnws/fr/2026/10/05/le-gouvernement-bruxellois-conclut-un-accord-sur-le-budget-2027"
+rtbf-1005-bruxelles:
+  type: presse
+  editeur: "RTBF"
+  titre: "Prêts rénovation à 0 %, taxe de circulation, logement : ce que prévoit le budget bruxellois 2027"
+  date: "5 octobre 2026"
+  url: "https://www.rtbf.be/article/prets-renovation-a-0-taxe-de-circulation-logement-ce-que-prevoit-le-budget-bruxellois-2027-11794913"
+bruxellestoday-1005:
+  type: presse
+  editeur: "BruxellesToday"
+  titre: "STIB, emploi, logement, voitures, fonction publique : ce que le nouveau budget bruxellois va changer en 2027"
+  date: "5 octobre 2026"
+  url: "https://www.bruxellestoday.be/economie/stib-emploi-logement-voitures-fonction-publique-ce-que-le-nouveau-budget-bruxellois-va-changer-en-2027.html"
+wikipedia-dillies:
+  type: analyse
+  editeur: "Wikipedia"
+  titre: "Dilliès government"
+  date: "consulté en novembre 2026"
+  url: "https://en.wikipedia.org/wiki/Dilli%C3%A8s_government"
+brusselstimes-wallonie:
+  type: presse
+  editeur: "The Brussels Times"
+  titre: "Walloon government agrees multi-year budget with Flemish-style 'jobs bonus'"
+  date: "12 octobre 2026"
+  url: "https://www.brusselstimes.com/belgium/2357504/walloon-government-agrees-multi-year-budget-with-flemish-style-jobs-bonus"
+21news-wallonie-analyse:
+  type: presse
+  editeur: "21 News"
+  titre: "Budget wallon : les 7 décisions qui montrent que la Wallonie veut changer de modèle"
+  date: "octobre 2026"
+  url: "https://www.21news.be/budget-wallon-les-7-decisions-qui-montrent-que-la-wallonie-veut-changer-de-modele-analyse/"
+21news-wallonie-900:
+  type: presse
+  editeur: "21 News"
+  titre: "Allocations, titres-services, fonctionnaires : où la Wallonie pourrait-elle économiser 900 millions ?"
+  date: "septembre 2026"
+  url: "https://www.21news.be/allocations-titres-services-fonctionnaires-ou-la-wallonie-pourrait-elle-economiser-900-millions/"
+lalibre-0914-wallonie:
+  type: presse
+  editeur: "La Libre (Belga)"
+  titre: "Budget wallon 2027 : des discussions techniques avant d'entrer dans le vif du sujet"
+  date: "14 septembre 2026"
+  url: "https://www.lalibre.be/dernieres-depeches/2026/09/14/budget-wallon-2027-des-discussions-techniques-avant-dentrer-dans-le-vif-du-sujet-VTSRENUJDFATTLJCGJHO4WIYSU/"
+lalibre-1009-fwb:
+  type: presse
+  editeur: "La Libre"
+  titre: "Budget 2027 : la Fédération Wallonie-Bruxelles prévoit un déficit de 1,27 milliard d'euros"
+  date: "9 octobre 2026"
+  url: "https://www.lalibre.be/belgique/politique-belge/2026/10/09/budget-2027-la-federation-wallonie-bruxelles-prevoit-un-deficit-de-127-milliard-deuros-AQZ2J4QSSNAUHMOVC4I42EYACE/"
+rtbf-1009-fwb:
+  type: presse
+  editeur: "RTBF"
+  titre: "Accord sur le budget 2027 de la FWB, la RTBF devra économiser 20 millions d'euros de plus"
+  date: "9 octobre 2026"
+  url: "https://www.rtbf.be/article/budget-2027-le-deficit-de-la-federation-wallonie-bruxelles-recule-la-rtbf-devra-economiser-au-moins-20-millions-d-euros-11797593"
+rtbf-1019-fwb:
+  type: presse
+  editeur: "RTBF"
+  titre: "Fédération Wallonie-Bruxelles : le budget 2027 au cœur d'un premier vif échange politique en commission"
+  date: "19 octobre 2026"
+  url: "https://www.rtbf.be/article/federation-wallonie-bruxelles-le-budget-2027-au-coeur-d-un-premier-vif-echange-politique-en-commission-11802724"
+bx1-fwb-dette:
+  type: presse
+  editeur: "BX1"
+  titre: "L'agence de la dette de la Fédération Wallonie-Bruxelles met en garde contre l'endettement croissant de l'entité"
+  date: "2026"
+  url: "https://bx1.be/?p=819556"
+bx1-fwb-degryse:
+  type: presse
+  editeur: "BX1"
+  titre: "Élisabeth Degryse : « D'ici une petite dizaine d'années, la Fédération Wallonie-Bruxelles devrait retrouver l'équilibre »"
+  date: "octobre 2026"
+  url: "https://bx1.be/categories/politique/elisabeth-degryse-dici-une-petite-dizaine-dannees-la-federation-wallonie-bruxelles-devrait-retrouver-lequilibre/"
+parismatch-0605-enseignement:
+  type: presse
+  editeur: "Paris Match Belgique"
+  titre: "Le plan d'économies dans l'enseignement définitivement validé par le parlement"
+  date: "5 juin 2026"
+  url: "https://www.parismatch.be/actualites/societe/2026/06/05/malgre-les-contestations-le-plan-deconomies-dans-lenseignement-definitivement-valide-par-le-parlement-2RXPRRIGCZC5XMHGGLB5ZF6TL4/"
+vrt-1002-devos:
+  type: presse
+  editeur: "VRT NWS"
+  titre: "N-VA ziet 'zwarte nul' in Vlaanderen als troef voor federale begroting, zegt Carl Devos"
+  date: "2 octobre 2026"
+  url: "https://vrt.be/vrtnws/nl/2026/10/02/besparingen-op-vlaams-niveau-zijn-troef-voor-federale-onderhande/"
+vrt-0930-flandre:
+  type: presse
+  editeur: "VRT NWS"
+  titre: "Polémique autour d'une erreur de calcul dans un tableau du budget flamand"
+  date: "30 septembre 2026"
+  url: "https://www.vrt.be/vrtnws/fr/2026/09/30/polemique-autour-dune-erreur-de-calcul-dans-un-tableau-du-budg/"
+knack-flandre:
+  type: presse
+  editeur: "Trends (Knack)"
+  titre: "Waarom een Vlaams begrotingsevenwicht in 2027 wellicht tijdelijk is"
+  date: "septembre 2026"
+  url: "https://trends.knack.be/nieuws/macro-economie-beleid/vlaams-begrotingsevenwicht-in-2027-is-wellicht-tijdelijk/"
+rtbf-communes-wallonie:
+  type: presse
+  editeur: "RTBF"
+  titre: "Coût des pensions, réforme du chômage et réforme fiscale : ces incertitudes qui planent sur les finances communales, selon Belfius"
+  date: "25 juin 2026"
+  url: "https://www.rtbf.be/article/cout-des-pensions-reforme-du-chomage-et-reforme-fiscale-ces-incertitudes-qui-planent-sur-les-finances-communales-selon-belfius-11747259"
+rtbf-communes-bruxelles:
+  type: presse
+  editeur: "RTBF"
+  titre: "Finances communales à Bruxelles : les comptes sont à l'équilibre, mais le matelas a disparu"
+  date: "15 octobre 2026"
+  url: "https://www.rtbf.be/article/finances-communales-a-bruxelles-les-comptes-sont-a-l-equilibre-mais-le-matelas-a-disparu-11800607"
+vrt-0806-cpas:
+  type: presse
+  editeur: "VRT NWS (Belga)"
+  titre: "Plus de la moitié des exclus du chômage ont demandé un revenu d'intégration"
+  date: "6 août 2026"
+  url: "https://www.vrt.be/vrtnws/fr/2026/08/06/plus-de-la-moitie-des-exclus-du-chomage-ont-demande-un-revenu-d/"
+parismatch-0225-chomage:
+  type: presse
+  editeur: "Paris Match Belgique"
+  titre: "Réforme du chômage, TVA de 12 % sur les séjours à l'hôtel : tout ce qui change à partir du 1er mars"
+  date: "25 février 2026"
+  url: "https://www.parismatch.be/actualites/societe/2026/02/25/reforme-du-chomage-tva-de-12-sur-les-sejours-a-lhotel-hausse-des-tarifs-a-walibi-voici-tout-ce-qui-change-a-partir-de-ce-1er-mars-V5HSLEYHHFCZTDSMFHWYHJAPWE/"
+
+# ---------- Analyses, études, prises de position ----------
+belfius-finances-locales:
+  type: analyse
+  editeur: "Belfius"
+  titre: "Études Finances locales 2026"
+  date: "2026"
+  url: "https://www.belfius.be/publicsocial/FR/notre-expertise/nos-etudes/finances-locales/index.aspx"
+uvcw-finances:
+  type: analyse
+  editeur: "Union des villes et communes de Wallonie"
+  titre: "Finances locales : l'étude annuelle de Belfius confirme les constats de l'UVCW"
+  date: "2026"
+  url: "https://www.uvcw.be/finances/actus/art-10326"
+feb-0714-monitoring:
+  type: analyse
+  editeur: "Fédération des entreprises de Belgique"
+  titre: "Budget fédéral : l'effort à fournir passe à 7,7 milliards EUR"
+  date: "14 juillet 2026"
+  url: "https://www.vbo-feb.be/fr/nouvelles/budget-federal-%E2%88%92-leffort-a-fournir-passe-a-77-milliards-eur/"
+feb-0624-pde:
+  type: analyse
+  editeur: "Fédération des entreprises de Belgique"
+  titre: "Finances publiques : la Belgique est loin d'être sortie d'affaire"
+  date: "24 juin 2026"
+  url: "https://www.vbo-feb.be/fr/nouvelles/finances-publiques-la-belgique-est-loin-detre-sortie-daffaire/"
+kbc-finances:
+  type: analyse
+  editeur: "KBC Economics"
+  titre: "A worrying look at Belgium's public finances"
+  date: "octobre 2026"
+  url: "https://www.kbc.com/en/economics/publications/a-worrying-look-at-belgium-s-public-finances.html"
+cerpe-cahier-125:
+  type: analyse
+  editeur: "CERPE (UNamur)"
+  titre: "Le nouveau cadre budgétaire européen (Cahier de recherche n° 125)"
+  date: "2025"
+  url: "https://defipp.unamur.be/research-centers/cerpe/cahier-125"
+mr-argumentaire-2025:
+  type: analyse
+  editeur: "Mouvement réformateur"
+  titre: "Argumentaire : accord budgétaire fédéral"
+  date: "26 novembre 2025"
+  url: "https://www.mr.be/wp-content/uploads/2025/12/FED_Budget_Argumentaire_AccordBudgetFederal_20251126.pdf"
+fff-vvprbis:
+  type: analyse
+  editeur: "Forum for the Future"
+  titre: "Accord budgétaire Arizona : un tour de vis discret sur le VVPRbis, de 15 à 18 %"
+  date: "novembre 2025"
+  url: "https://blog.forumforthefuture.be/fr/article/accord-budgetaire-arizona-un-tour-de-vis-discret-sur-le-vvprbis-de-15-a-18-/29219"
+ouaisfieu-arizona:
+  type: analyse
+  editeur: "Ouaisfieu"
+  titre: "Le Budget Arizona : dossier chiffré du budget fédéral belge (2025-2029)"
+  date: "juillet 2026"
+  url: "https://ouaisfieu.github.io/arizona/budget/"

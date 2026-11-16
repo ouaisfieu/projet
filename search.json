@@ -1,0 +1,13 @@
+---
+layout: null
+sitemap: false
+---
+{% assign tri = site.notices | sort: "slug" %}[
+{% for n in tri %}{% assign c = site.data.categories | where: "id", n.categorie | first %}  {
+    "titre": {{ n.title | jsonify }},
+    "alias": {% if n.alias %}{{ n.alias | jsonify }}{% else %}[]{% endif %},
+    "resume": {{ n.resume | jsonify }},
+    "rubrique": {{ c.nom | jsonify }},
+    "url": {{ n.url | relative_url | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}]

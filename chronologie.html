@@ -1,0 +1,32 @@
+---
+layout: page
+large: true
+title: "Chronologie"
+permalink: /chronologie/
+chapeau: "De l'ouverture de la procédure européenne de déficit excessif à la prolongation de la mission du Premier ministre."
+---
+<p class="note">
+  Les dates sont celles rapportées par les sources citées dans les notices. Les jalons en gras
+  marquent les tournants de la séquence. Information arrêtée au {{ site.edition }}.
+</p>
+
+{% assign evenements = site.data.chronologie | sort: "date" %}
+{% assign par_annee = evenements | group_by: "annee" %}
+{% for a in par_annee %}
+<h2 class="annee" id="a{{ a.name }}">{{ a.name }}</h2>
+<ol class="frise">
+  {% for e in a.items %}
+  <li{% if e.jalon %} class="jalon"{% endif %}>
+    <time datetime="{{ e.date }}">{{ e.libelle }}</time>
+    <div>
+      <p>{{ e.texte }}</p>
+      {% if e.notices %}
+      <p class="renvois">
+        {% for s in e.notices %}{% assign n = site.notices | where: "slug", s | first %}{% if n %}<a href="{{ n.url | relative_url }}">{{ n.title }}</a>{% unless forloop.last %} · {% endunless %}{% endif %}{% endfor %}
+      </p>
+      {% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ol>
+{% endfor %}
